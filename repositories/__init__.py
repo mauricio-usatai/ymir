@@ -1,0 +1,2 @@
+from .challengerepository import ChallengeRepository
+from .timerepository import TimeRepository

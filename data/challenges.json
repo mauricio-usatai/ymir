@@ -1,0 +1,136 @@
+{
+    "0": {
+        "wording": "Reverse the numeric list",
+        "inputs": [
+            [1, 2, 3, 4],
+            [1, 1, 2, 2],
+            [1, 4, 2, 3, 1, 5, 6, 10, 12, 11]
+        ],
+        "function": "numericListReverse"
+    },
+    "1": {
+        "wording": "Sort the numeric list ascending using selection sort",
+        "inputs": [
+            [1, 2, 3, 4],
+            [2, 2, 1, 1],
+            [1, 4, 2, 3, 1, 5, 6, 10, 12, 11]
+        ],
+        "function": "sortNumericListAscSelection"
+    },
+    "2": {
+        "wording": "Sort the numeric list ascending using bubble sort",
+        "inputs": [
+            [1, 2, 3, 4],
+            [2, 2, 1, 1],
+            [1, 4, 2, 3, 1, 5, 6, 10, 12, 11]
+        ],
+        "function": "sortNumericListAscBubble"
+    },
+    "3": {
+        "wording": "Check if the string is a palindrome",
+        "inputs": [
+            "abcdcba",
+            "flsecnhfesfl",
+            "aslkdjjdklsa"
+        ],
+        "function": "isPalindrome"
+    },
+    "4": {
+        "wording": "Reverse the string",
+        "inputs": [
+            "abcdcba",
+            "abacaxi",
+            "aaaaaaab"
+        ],
+        "function": "stringReverse"
+    },
+    "5": {
+        "wording": "Find the largest number in the numeric array",
+        "inputs": [
+            [1, 2, 3, 4],
+            [1, 1, 2, 2],
+            [1, 1, 2, 3, 4, 5, 6, 10, 11, 12]
+        ],
+        "function": "findLargestNumber"
+    },
+    "6": {
+        "wording": "Find the smallest number in the numeric array",
+        "inputs": [
+            [1, 2, 3, 4],
+            [1, 1, -1, 2],
+            [1, 1, -10, 3, 4, 5, 6, 10, 11, 12]
+        ],
+        "function": "findSmallestNumber"
+    },
+    "7": {
+        "wording": "Find the smallest non-negative number in the numeric array",
+        "inputs": [
+            [1, 2, 3, 4],
+            [2, 3, -1, 10],
+            [1, 20, -10, 3, 4, 5, 6, 10, 11, 12]
+        ],
+        "function": "findSmallestPositiveNumber"
+    },
+    "8": {
+        "wording": "Solve the Iris dataset with K-Means clustering; return True if acc >= 0.9",
+        "inputs": [
+            "iris"
+        ],
+        "function": "kMeansClassifier"
+    },
+    "9": {
+        "wording": "Extract the numbers one, two and three from the utterances and put them on a list as numerals",
+        "inputs": [
+            "I have two eggs in my basket",
+            "I have three brothers and one sister",
+            "a, b, c, its easy as one, two, three"
+        ],
+        "function": "numberNER"        
+    },
+    "10": {
+        "wording": "Remove the stop words the and and from the utterance",
+        "inputs": [
+            "The cat and the  dog",
+            "There   is a cat on that tabletop",
+            "What the hell   is going  on here?"
+        ],
+        "function": "removeStopWords"        
+    },
+    "11": {
+        "wording": "Multiply all elements in the list by 3 using the map function",
+        "inputs": [
+            [1, 2, 3, 4],
+            [2, 3, -1, 10],
+            [1, 20, -10, 3, 4, 5, 6, 10, 11, 12]
+        ],
+        "function": "multiplyListBy3"        
+    }, 
+    "12": {
+        "wording": "Create a sublist containing all odd numbers from the list",
+        "inputs": [
+            [1, 2, 3, 4],
+            [2, 3, -1, 10],
+            [1, 20, -10, 3, 4, 5, 6, 10, 11, 12]
+        ],
+        "function": "oddNumbersList"        
+    },
+    "13": {
+        "wording": "Count the number of different words in the text. Return a sorted dict from a->z with the counts",
+        "inputs": [
+            "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?",
+            "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?",
+            "On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain. These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain avoided. But in certain circumstances and owing to the claims of duty or the obligations of business it will frequently occur that pleasures have to be repudiated and annoyances accepted. The wise man therefore always holds in these matters to this principle of selection: he rejects pleasures to secure other greater pleasures, or else he endures pains to avoid worse pains."
+        ],
+        "function": "countWords"
+    },
+    "14": {
+        "wording": "Check if a dict in index 0 is a subset of dict in index 1",
+        "inputs": [
+            [{"a": 1, "b": 2}, {"a": 1, "b": 2, "c": 3}],
+            [{"b": 2}, {"a": 1, "c": 3}],
+            [{"a": 1, "b": 2, "c": 3}, {"a": 1, "b": 2}]
+        ],
+        "function": "isSubset"        
+    }
+}
+  
